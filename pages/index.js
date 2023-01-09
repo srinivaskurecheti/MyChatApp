@@ -20,7 +20,7 @@ export default function Auth() {
       .put(
         "https://api.chatengine.io/users/",
         { username, secret },
-        { headers: { "Private-key": "4c2ab7cb-31a9-406c-ae6c-829efcddcaa5" } }
+        { headers: { "Private-key": "91d9e5f9-ac86-40a7-96e7-a69eabf670e9" } }
       )
       .then((r) => router.push("/chats"));
   }
